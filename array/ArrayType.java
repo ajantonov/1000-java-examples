@@ -3,6 +3,6 @@ public class ArrayType {
         String[] bugs = { "cricket", "beetle", "ladybug" };
         String[] alias = bugs;
         System.out.println(bugs.equals(alias));
-        System.out.println(bugs.toString());
+        System.out.println(java.util.Arrays.toString(bugs));
     }
 }
