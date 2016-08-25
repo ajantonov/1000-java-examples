@@ -8,5 +8,6 @@ public class CreationOfArrayList {
         // ArrayList listThree = new ArrayList(list2);
         ArrayList<String> listFour = new ArrayList<String>();
         ArrayList<String> listFive = new ArrayList<>();
+        List<String> listSix = new ArrayList<>();
     }
 }
