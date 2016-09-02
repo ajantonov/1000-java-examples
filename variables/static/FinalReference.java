@@ -6,5 +6,6 @@ public class FinalReference {
 
     public static void main(String[] args) {
         finalReference.add("changed");        
+        finalReference = null;
     }
 }
