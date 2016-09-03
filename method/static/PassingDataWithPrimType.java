@@ -1,4 +1,4 @@
-public class PassingData {
+public class PassingDataWithPrimType {
     
     public static void main(String[] args) {
         int num = 4;
