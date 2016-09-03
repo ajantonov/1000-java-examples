@@ -4,7 +4,13 @@ public class InitializationOrderSimple {
     private static int COUNT = 0;
     static { System.out.println(COUNT); }
     static { COUNT += 10; System.out.println(COUNT); }
+    
     public InitializationOrderSimple() {
         System.out.println("constructor");
+    }
+    
+    public static void main(String[] args) {
+        System.out.println("read constructor");
+        new InitializationOrderSimple();
     }
 }
