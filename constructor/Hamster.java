@@ -4,6 +4,7 @@ public class Hamster {
     private int     weight;
     
     public Hamster(int weight) {
+        System.out.println("Test");
         this(weight, "brown");
     }
     
