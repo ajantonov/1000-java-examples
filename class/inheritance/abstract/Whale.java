@@ -1,3 +1,3 @@
 public abstract class Whale {
-    private abstract void sing();
+    protected abstract void sing();
 }
